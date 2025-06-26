@@ -1,0 +1,404 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Instituto Universitario Jesús Obrero</title>
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Google Fonts - Inter -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            margin: 0;
+            padding: 0;
+            overflow-x: hidden; /* Prevent horizontal scrolling */
+        }
+        /* Custom styles for smooth scrolling if needed */
+        html {
+            scroll-behavior: smooth;
+        }
+        .hero-background {
+            /* Usando una imagen de marcador de posición.
+               REEMPLAZA esta URL con la de una imagen real de tu campus, aulas o estudiantes.
+               Asegúrate de que la imagen sea de alta resolución y representativa. */
+            background-image: url('https://elinformadorve.com/wp-content/uploads/2025/03/25-03-25-IUJO-de-Elsa-Cecilia-Pina-8-1.jpg'); /* [Image of a modern campus] */
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed; /* Parallax effect */
+        }
+        .card-shadow {
+            box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+        }
+    </style>
+</head>
+<body class="bg-gray-100 text-gray-800">
+
+    <!-- Header / Navbar -->
+    <header class="bg-red-700 text-white p-4 shadow-lg fixed w-full z-50">
+        <nav class="container mx-auto flex flex-col md:flex-row justify-between items-center">
+            <div class="flex items-center space-x-3 mb-4 md:mb-0">
+                <!-- LOGO DEL INSTITUTO -->
+                <!-- Reemplaza la URL_DE_TU_LOGO.png con la dirección de tu imagen de logo.
+                     Ajusta las clases 'w-8 h-8' si tu logo requiere otro tamaño. -->
+                <img src="https://static-1.ivoox.com/audios/5/7/2/c/572c423b2dcaa317deb9f6fc04d506e7_XXL.jpg" alt="Logo IUJO" class="w-8 h-8 rounded-full bg-white p-1">
+                <a href="#" class="text-2xl font-bold rounded-md hover:text-red-200 transition duration-300">Instituto Universitario Jesús Obrero</a>
+            </div>
+            <ul class="flex flex-col md:flex-row space-y-2 md:space-y-0 md:space-x-8 text-lg font-medium">
+                <li><a href="#inicio" class="hover:text-red-300 transition duration-300 p-2 rounded-md hover:bg-red-800">Inicio</a></li>
+                <li><a href="#carreras" class="hover:text-red-300 transition duration-300 p-2 rounded-md hover:bg-red-800">Carreras</a></li>
+                <li><a href="#admisiones" class="hover:text-red-300 transition duration-300 p-2 rounded-md hover:bg-red-800">Admisiones</a></li>
+                <li><a href="#nosotros" class="hover:text-red-300 transition duration-300 p-2 rounded-md hover:bg-red-800">Nosotros</a></li>
+                <li><a href="#contacto" class="hover:text-red-300 transition duration-300 p-2 rounded-md hover:bg-red-800">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="inicio" class="hero-background text-white flex items-center justify-center min-h-screen pt-20">
+        <div class="bg-gray-900 bg-opacity-70 p-8 rounded-xl text-center max-w-4xl mx-auto shadow-2xl m-4">
+            <h1 class="text-5xl md:text-7xl font-extrabold mb-6 leading-tight">
+                Forjando Futuros, Transformando Vidas
+            </h1>
+            <p class="text-xl md:text-2xl mb-8 font-light">
+                Educación de calidad para profesionales líderes con valores humanistas.
+            </p>
+            <a href="#admisiones" class="bg-red-600 hover:bg-red-700 text-white font-bold py-3 px-8 rounded-full text-lg transition duration-300 ease-in-out transform hover:scale-105 shadow-lg">
+                ¡Inscríbete Ahora!
+            </a>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="nosotros" class="py-16 bg-white">
+        <div class="container mx-auto px-4">
+            <h2 class="text-4xl font-bold text-center mb-12 text-gray-800">Sobre el Instituto Universitario Jesús Obrero</h2>
+            <div class="flex flex-col md:flex-row items-center md:space-x-12">
+                <div class="md:w-1/2 mb-8 md:mb-0">
+                    <!-- Reemplaza esta URL con una foto real del edificio principal o de las instalaciones del instituto. -->
+                    <img src="https://elinformadorve.com/wp-content/uploads/2024/10/Edificio-AR-IUJO-BQTO-FOTO-IUJO.jpg" alt="Edificio Principal del Instituto" class="rounded-lg shadow-xl w-full h-auto object-cover">
+                </div>
+                <div class="md:w-1/2 text-lg leading-relaxed">
+                    <p class="mb-6">
+                        El Instituto Universitario Jesús Obrero (IUJO) es una institución educativa comprometida con la formación integral de profesionales altamente calificados, con un profundo sentido ético y social. Desde nuestra fundación, nos hemos dedicado a ofrecer programas académicos innovadores y de excelencia, adaptados a las demandas del mercado laboral y a los desafíos de la sociedad contemporánea.
+                    </p>
+                    <p class="mb-6">
+                        Nuestra misión es educar líderes capaces de generar un impacto positivo en sus comunidades, promoviendo la investigación, la innovación y el desarrollo sostenible. Contamos con un cuerpo docente de primer nivel, infraestructuras modernas y un ambiente de aprendizaje dinámico que fomenta el crecimiento personal y profesional de nuestros estudiantes.
+                    </p>
+                    <p>
+                        En el IUJO, creemos en el poder transformador de la educación para construir un futuro mejor.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Programs/Courses Section -->
+    <section id="carreras" class="py-16 bg-gray-100">
+        <div class="container mx-auto px-4">
+            <h2 class="text-4xl font-bold text-center mb-12 text-gray-800">Nuestras Carreras</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <!-- Card 1: Informática -->
+                <div class="bg-white rounded-lg p-8 card-shadow hover:shadow-xl transition-shadow duration-300 border-t-4 border-red-600">
+                    <div class="flex items-center mb-4">
+                        <svg class="w-10 h-10 text-red-600 mr-3" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9.75 17L21 3m-9 9l-3 3m5-3H3V7l4-4h7.5c.78 0 1.5.3 1.95.84l4.5 5.5c.44.53.65 1.25.65 2.01V20a2 2 0 01-2 2H5a2 2 0 01-2-2v-4"></path></svg>
+                        <h3 class="text-2xl font-semibold text-gray-700">Informática</h3>
+                    </div>
+                    <p class="text-gray-700 mb-4">
+                        Formamos profesionales capaces de diseñar, desarrollar y gestionar sistemas informáticos, redes y bases de datos.
+                    </p>
+                    <ul class="list-disc list-inside text-gray-600">
+                        <li>Desarrollo de Software</li>
+                        <li>Redes y Ciberseguridad</li>
+                        <li>Inteligencia Artificial</li>
+                    </ul>
+                    <a href="#" class="inline-block mt-6 text-red-600 hover:text-red-800 font-medium">Ver más &rarr;</a>
+                </div>
+
+                <!-- Card 2: Administración -->
+                <div class="bg-white rounded-lg p-8 card-shadow hover:shadow-xl transition-shadow duration-300 border-t-4 border-red-500">
+                    <div class="flex items-center mb-4">
+                        <svg class="w-10 h-10 text-red-500 mr-3" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 10h18M7 15h1m4 0h1m-7 4h12a3 3 0 003-3V8a3 3 0 00-3-3H6a3 3 0 00-3 3v8a3 3 0 003 3z"></path></svg>
+                        <h3 class="text-2xl font-semibold text-gray-700">Administración</h3>
+                    </div>
+                    <p class="text-gray-700 mb-4">
+                        Preparamos líderes empresariales con visión estratégica y habilidades para la gestión eficiente de organizaciones.
+                    </p>
+                    <ul class="list-disc list-inside text-gray-600">
+                        <li>Gestión de Proyectos</li>
+                        <li>Marketing Digital</li>
+                        <li>Finanzas Corporativas</li>
+                    </ul>
+                    <a href="#" class="inline-block mt-6 text-red-500 hover:text-red-700 font-medium">Ver más &rarr;</a>
+                </div>
+
+                <!-- Card 3: Diseño Gráfico -->
+                <div class="bg-white rounded-lg p-8 card-shadow hover:shadow-xl transition-shadow duration-300 border-t-4 border-gray-600">
+                    <div class="flex items-center mb-4">
+                        <svg class="w-10 h-10 text-gray-600 mr-3" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 16l4.586-4.586a2 2 0 012.828 0L15 15m0 0l2.121-2.121a2 2 0 012.828 0L21 17m-9.757-4.577L16 16.5m-9.757-4.577L14 16.5m-9.757-4.577L12 16.5m-9.757-4.577L10 16.5m-9.757-4.577L8 16.5m-9.757-4.577L6 16.5"></path></svg>
+                        <h3 class="text-2xl font-semibold text-gray-700">Diseño Gráfico</h3>
+                    </div>
+                    <p class="text-gray-700 mb-4">
+                        Desarrollamos talentos creativos para la comunicación visual, el diseño de marcas y la producción multimedia.
+                    </p>
+                    <ul class="list-disc list-inside text-gray-600">
+                        <li>Branding y Publicidad</li>
+                        <li>Animación 2D/3D</li>
+                        <li>Diseño Web y UX/UI</li>
+                    </ul>
+                    <a href="#" class="inline-block mt-6 text-gray-600 hover:text-gray-800 font-medium">Ver más &rarr;</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Admissions Section -->
+    <section id="admisiones" class="py-16 bg-white">
+        <div class="container mx-auto px-4 text-center">
+            <h2 class="text-4xl font-bold mb-8 text-gray-800">Proceso de Admisión</h2>
+            <p class="text-lg mb-8 max-w-2xl mx-auto">
+                ¡Es tu momento de unirte a la comunidad del Instituto Universitario Jesús Obrero! Sigue estos sencillos pasos para iniciar tu proceso de inscripción.
+            </p>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8 mb-12">
+                <!-- Step 1 -->
+                <div class="bg-gray-100 p-6 rounded-lg card-shadow">
+                    <div class="flex items-center justify-center bg-red-600 text-white rounded-full w-12 h-12 mx-auto mb-4 text-2xl font-bold">1</div>
+                    <h3 class="text-xl font-semibold mb-2 text-gray-700">Solicitud Online</h3>
+                    <p class="text-gray-700">
+                        Completa nuestro formulario de solicitud en línea con tus datos personales y académicos.
+                    </p>
+                </div>
+                <!-- Step 2 -->
+                <div class="bg-gray-100 p-6 rounded-lg card-shadow">
+                    <div class="flex items-center justify-center bg-red-600 text-white rounded-full w-12 h-12 mx-auto mb-4 text-2xl font-bold">2</div>
+                    <h3 class="text-xl font-semibold mb-2 text-gray-700">Consignación de Documentos</h3>
+                    <p class="text-gray-700">
+                        Envía los documentos requeridos (notas, título de bachiller, cédula, etc.) según las indicaciones.
+                    </p>
+                </div>
+                <!-- Step 3 -->
+                <div class="bg-gray-100 p-6 rounded-lg card-shadow">
+                    <div class="flex items-center justify-center bg-red-600 text-white rounded-full w-12 h-12 mx-auto mb-4 text-2xl font-bold">3</div>
+                    <h3 class="text-xl font-semibold mb-2 text-gray-700">Entrevista y Evaluación</h3>
+                    <p class="text-gray-700">
+                        Agenda una entrevista personal y, si aplica, presenta una prueba de aptitud académica.
+                    </p>
+                </div>
+            </div>
+            <a href="#" class="bg-red-600 hover:bg-red-700 text-white font-bold py-3 px-8 rounded-full text-lg transition duration-300 ease-in-out transform hover:scale-105 shadow-lg">
+                Descarga la Guía de Admisión
+            </a>
+        </div>
+    </section>
+
+    <!-- Why Choose Us Section (Features/Benefits) -->
+    <section class="py-16 bg-red-700 text-white">
+        <div class="container mx-auto px-4 text-center">
+            <h2 class="text-4xl font-bold mb-12">¿Por Qué Elegir al IUJO?</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+                <!-- Feature 1 -->
+                <div class="bg-red-800 p-6 rounded-lg card-shadow flex flex-col items-center text-center">
+                    <svg class="w-16 h-16 text-white mb-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6.253v13.458a2.25 2.25 0 01-1.277 2.019L8 22.75l-.921-.715A2.25 2.25 0 015 20.916V6.253a2.25 2.25 0 01-.636-1.895L2 2h20l-2.364 2.358A2.25 2.25 0 0112 6.253z"></path></svg>
+                    <h3 class="text-xl font-semibold mb-2">Docentes Expertos</h3>
+                    <p class="text-red-100">
+                        Cuerpo profesoral altamente calificado y con experiencia en el campo profesional.
+                    </p>
+                </div>
+                <!-- Feature 2 -->
+                <div class="bg-red-800 p-6 rounded-lg card-shadow flex flex-col items-center text-center">
+                    <svg class="w-16 h-16 text-white mb-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 5a2 2 0 00-2 2v2a2 2 0 002 2h12a2 2 0 002-2V7a2 2 0 00-2-2H4zm0 10a2 2 0 00-2 2v2a2 2 0 002 2h12a2 2 0 002-2v-2a2 2 0 00-2-2H4zm0-5a2 2 0 00-2 2v2a2 2 0 002 2h12a2 2 0 002-2v-2a2 2 0 00-2-2H4z"></path></svg>
+                    <h3 class="text-xl font-semibold mb-2">Infraestructura Moderna</h3>
+                    <p class="text-red-100">
+                        Aulas equipadas, laboratorios de vanguardia y espacios de estudio cómodos.
+                    </p>
+                </div>
+                <!-- Feature 3 -->
+                <div class="bg-red-800 p-6 rounded-lg card-shadow flex flex-col items-center text-center">
+                    <svg class="w-16 h-16 text-white mb-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z"></path></svg>
+                    <h3 class="text-xl font-semibold mb-2">Enfoque Práctico</h3>
+                    <p class="text-red-100">
+                        Metodologías de enseñanza orientadas a la aplicación práctica y al desarrollo de habilidades.
+                    </p>
+                </div>
+                <!-- Feature 4 -->
+                <div class="bg-red-800 p-6 rounded-lg card-shadow flex flex-col items-center text-center">
+                    <svg class="w-16 h-16 text-white mb-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M18 9v3m0 0v3m0-3h3m-3 0h-3m-2-5a4 4 0 11-8 0 4 4 0 018 0zM12 14c-.056-.445-.179-.877-.357-1.272a3.999 3.999 0 00-4.004-4.004c-.395-.178-.827-.3-.1272-.357M6.75 16.5a2.25 2.25 0 00-.91-.177L5.25 16.5a2.25 2.25 0 00-2.25 2.25v1.75l.95.237c.465.116.892.361 1.258.718l.583.583a2.25 2.25 0 003.182 0l.583-.583c.366-.357.793-.602 1.258-.718L18 20.5v-1.75a2.25 2.25 0 00-2.25-2.25h-1.5z"></path></svg>
+                    <h3 class="text-xl font-semibold mb-2">Oportunidades Laborales</h3>
+                    <p class="text-red-100">
+                        Convenios con empresas para prácticas y alta empleabilidad de nuestros egresados.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="py-16 bg-white">
+        <div class="container mx-auto px-4">
+            <h2 class="text-4xl font-bold text-center mb-12 text-gray-800">Lo Que Dicen Nuestros Estudiantes</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                <!-- Testimonial 1 -->
+                <div class="bg-gray-100 p-8 rounded-lg card-shadow border-l-4 border-red-600">
+                    <p class="text-lg italic text-gray-700 mb-4">
+                        "Estudiar en el IUJO ha sido la mejor decisión de mi vida. La calidad de los profesores y el apoyo que recibes es inigualable. ¡Estoy listo para mi futuro!"
+                    </p>
+                    <div class="flex items-center">
+                        <!-- Reemplaza esta URL con una foto real del estudiante -->
+                        <img src="https://placehold.co/60x60/d1d5db/4B5563?text=JR" alt="Foto de Estudiante" class="w-12 h-12 rounded-full mr-4 object-cover">
+                        <div>
+                            <p class="font-semibold text-gray-800">Juan Rodríguez</p>
+                            <p class="text-sm text-gray-600">Estudiante de Informática</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Testimonial 2 -->
+                <div class="bg-gray-100 p-8 rounded-lg card-shadow border-l-4 border-red-600">
+                    <p class="text-lg italic text-gray-700 mb-4">
+                        "La carrera de Administración me ha brindado las herramientas y el conocimiento necesario para emprender. El ambiente de estudio es muy motivador."
+                    </p>
+                    <div class="flex items-center">
+                        <!-- Reemplaza esta URL con una foto real del estudiante -->
+                        <img src="https://placehold.co/60x60/d1d5db/4B5563?text=AM" alt="Foto de Estudiante" class="w-12 h-12 rounded-full mr-4 object-cover">
+                        <div>
+                            <p class="font-semibold text-gray-800">Ana Mendoza</p>
+                            <p class="text-sm text-gray-600">Estudiante de Administración</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- News/Events Section -->
+    <section class="py-16 bg-gray-100">
+        <div class="container mx-auto px-4">
+            <h2 class="text-4xl font-bold text-center mb-12 text-gray-800">Noticias y Eventos</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <!-- Event 1 -->
+                <div class="bg-white rounded-lg p-6 card-shadow hover:shadow-lg transition-shadow duration-300">
+                    <!-- Reemplaza esta URL con una imagen real del evento -->
+                    <img src="https://d3pugrm67vf9n7.cloudfront.net/wp-content/uploads/sites/4/2024/12/16212734/FOTO_WEB_UNI.jpg" alt="Imagen del evento" class="rounded-md mb-4 w-full h-48 object-cover">
+                    <h3 class="text-xl font-semibold mb-2 text-gray-700">Conferencia de Innovación Tecnológica</h3>
+                    <p class="text-gray-600 text-sm mb-3">
+                        <span class="font-medium">Fecha:</span> 15 de Julio, 2025 | <span class="font-medium">Lugar:</span> Auditorio Principal
+                    </p>
+                    <p class="text-gray-700 mb-4">
+                        Expertos de la industria compartirán sus conocimientos sobre las últimas tendencias en IA y desarrollo de software.
+                    </p>
+                    <a href="#" class="text-red-600 hover:text-red-800 font-medium">Leer más &rarr;</a>
+                </div>
+                <!-- Event 2 -->
+                <div class="bg-white rounded-lg p-6 card-shadow hover:shadow-lg transition-shadow duration-300">
+                    <!-- Reemplaza esta URL con una imagen real del evento -->
+                    <img src="https://forum.aeternity.com/uploads/db0917/original/2X/2/2c9b3ea2843d0b8d681c950f96e67bda49367542.jpeg" alt="Imagen del evento" class="rounded-md mb-4 w-full h-48 object-cover">
+                    <h3 class="text-xl font-semibold mb-2 text-gray-700">Taller de Emprendimiento y Liderazgo</h3>
+                    <p class="text-gray-600 text-sm mb-3">
+                        <span class="font-medium">Fecha:</span> 22 de Agosto, 2025 | <span class="font-medium">Lugar:</span> Salón de Usos Múltiples
+                    </p>
+                    <p class="text-gray-700 mb-4">
+                        Desarrolla tus habilidades empresariales con nuestro taller intensivo enfocado en la creación de negocios.
+                    </p>
+                    <a href="#" class="text-red-600 hover:text-red-800 font-medium">Leer más &rarr;</a>
+                </div>
+                <!-- Event 3 -->
+                <div class="bg-white rounded-lg p-6 card-shadow hover:shadow-lg transition-shadow duration-300">
+                    <!-- Reemplaza esta URL con una imagen real del evento -->
+                    <img src="https://d3pugrm67vf9n7.cloudfront.net/wp-content/uploads/sites/4/2024/09/24191704/UNIVERSIDAD-25-8.jpg" alt="Imagen del evento" class="rounded-md mb-4 w-full h-48 object-cover">
+                    <h3 class="text-xl font-semibold mb-2 text-gray-700">Feria de Carreras Universitarias</h3>
+                    <p class="text-gray-600 text-sm mb-3">
+                        <span class="font-medium">Fecha:</span> 5 de Septiembre, 2025 | <span class="font-medium">Lugar:</span> Gimnasio Techado
+                    </p>
+                    <p class="text-gray-700 mb-4">
+                        Explora todas las opciones académicas que el IUJO tiene para ofrecerte en nuestro evento anual.
+                    </p>
+                    <a href="#" class="text-red-600 hover:text-red-800 font-medium">Leer más &rarr;</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contacto" class="py-16 bg-gray-800 text-white">
+        <div class="container mx-auto px-4 text-center">
+            <h2 class="text-4xl font-bold mb-8">Contáctanos</h2>
+            <p class="text-lg mb-8 max-w-2xl mx-auto">
+                ¿Tienes preguntas? No dudes en contactarnos. Nuestro equipo estará encantado de ayudarte.
+            </p>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8 items-start">
+                <!-- Contact Info -->
+                <div class="bg-gray-700 p-8 rounded-lg card-shadow text-left">
+                    <h3 class="text-2xl font-semibold mb-4">Información de Contacto</h3>
+                    <p class="mb-4 flex items-center">
+                        <svg class="w-6 h-6 text-gray-200 mr-3" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.727A8 8 0 016.343 5.273L12 2l-5.657 5.657a8 8 0 0111.314 11.314zM12 11h.01"></path></svg>
+                        <strong>Dirección:</strong> Calle Ejemplo 123, Ciudad, País
+                    </p>
+                    <p class="mb-4 flex items-center">
+                        <svg class="w-6 h-6 text-gray-200 mr-3" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"></path></svg>
+                        <strong>Teléfono:</strong> +XX XXX XXX XXXX
+                    </p>
+                    <p class="mb-4 flex items-center">
+                        <svg class="w-6 h-6 text-gray-200 mr-3" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"></path></svg>
+                        <strong>Email:</strong> info@institutojeh.edu
+                    </p>
+                    <!-- Reemplaza esta URL con una imagen de mapa real o un iframe de Google Maps -->
+                    <div class="bg-gray-200 w-full h-48 rounded-md mt-6 flex items-center justify-center text-gray-700 text-sm">
+                        <img src="https://webiujocatia.wordpress.com/wp-content/uploads/2024/11/chrome_afmlxhp1kp.png" alt="Mapa de ubicación" class="rounded-md w-full h-full object-cover">
+                    </div>
+                </div>
+
+                <!-- Contact Form -->
+                <div class="bg-gray-700 p-8 rounded-lg card-shadow text-left">
+                    <h3 class="text-2xl font-semibold mb-4">Envíanos un Mensaje</h3>
+                    <form>
+                        <div class="mb-4">
+                            <label for="name" class="block text-gray-100 text-sm font-bold mb-2">Nombre:</label>
+                            <input type="text" id="name" name="name" class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" placeholder="Tu nombre">
+                        </div>
+                        <div class="mb-4">
+                            <label for="email" class="block text-gray-100 text-sm font-bold mb-2">Email:</label>
+                            <input type="email" id="email" name="email" class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" placeholder="tu@email.com">
+                        </div>
+                        <div class="mb-6">
+                            <label for="message" class="block text-gray-100 text-sm font-bold mb-2">Mensaje:</label>
+                            <textarea id="message" name="message" rows="5" class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" placeholder="Escribe tu mensaje aquí..."></textarea>
+                        </div>
+                        <button type="submit" class="bg-red-600 hover:bg-red-700 text-white font-bold py-3 px-6 rounded-full transition duration-300 ease-in-out transform hover:scale-105 shadow-lg">
+                            Enviar Mensaje
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-900 text-gray-300 py-8">
+        <div class="container mx-auto px-4 flex flex-col md:flex-row justify-between items-center text-center md:text-left">
+            <div class="mb-4 md:mb-0">
+                <p>&copy; 2025 Instituto Universitario Jesús Obrero. Todos los derechos reservados.</p>
+            </div>
+            <div class="flex space-x-6">
+                <a href="#" class="hover:text-white transition duration-300">Privacidad</a>
+                <a href="#" class="hover:text-white transition duration-300">Términos de Servicio</a>
+                <a href="#" class="hover:text-white transition duration-300">Mapa del Sitio</a>
+            </div>
+            <div class="mt-4 md:mt-0 flex space-x-4">
+                <a href="#" class="text-gray-400 hover:text-white transition duration-300">
+                    <!-- Facebook Icon -->
+                    <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path fill-rule="evenodd" d="M22 12c0-5.523-4.477-10-10-10S2 6.477 2 12c0 4.991 3.657 9.128 8.438 9.878v-6.987h-2.54V12h2.54V9.797c0-2.506 1.492-3.89 3.776-3.89 1.094 0 2.238.195 2.238.195v2.46h-1.26c-1.247 0-1.646.779-1.646 1.563V12h2.77l-.44 2.89h-2.33v6.987C18.343 21.128 22 16.991 22 12z" clip-rule="evenodd" /></svg>
+                </a>
+                <a href="#" class="text-gray-400 hover:text-white transition duration-300">
+                    <!-- Twitter Icon -->
+                    <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path d="M8.29 20.251c7.547 0 11.675-6.253 11.675-11.675 0-.178 0-.355-.012-.53A8.34 8.34 0 0022 5.92a8.194 8.194 0 01-2.357.646 4.113 4.113 0 001.804-2.27 8.22 8.22 0 01-2.607.996 4.102 4.102 0 00-6.984 3.738A11.62 11.62 0 013 4.298a4.114 4.114 0 001.27 5.485 4.095 4.095 0 01-1.858-.513c-.045 1.9 1.313 3.645 3.29 4.032a4.11 4.11 0 01-1.854.07 4.106 4.106 0 003.834 2.85A8.257 8.257 0 013 18.006c-.546 0-1.082-.032-1.61-.097a11.675 11.675 0 0010.59 5.748c12.754 0 19.125-10.554 19.125-19.124 0-.292-.016-.583-.038-.871A13.883 13.883 0 0024 2.525c-.97.433-2.015.723-3.116.852A8.19 8.19 0 0022 2.723z" /></svg>
+                </a>
+                <a href="#" class="text-gray-400 hover:text-white transition duration-300">
+                    <!-- Instagram Icon -->
+                    <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path fill-rule="evenodd" d="M12 2C8.89 2 6.47 2.05 4.88 2.37A5.996 5.996 0 002.37 4.88C2.05 6.47 2 8.89 2 12s.05 5.53.37 7.12a5.996 5.996 0 002.51 2.51c1.59.32 4.01.37 7.12.37s5.53-.05 7.12-.37a5.996 5.996 0 002.51-2.51c.32-1.59.37-4.01.37-7.12s-.05-5.53-.37-7.12a5.996 5.996 0 00-2.51-2.51C17.53 2.05 15.11 2 12 2zm0 18c-3.11 0-5.53-.05-7.12-.37a3.996 3.996 0 01-1.74-1.74c-.32-1.59-.37-4.01-.37-7.12s.05-5.53.37-7.12a3.996 3.996 0 011.74-1.74c1.59-.32 4.01-.37 7.12-.37s5.53.05 7.12.37a3.996 3.996 0 011.74 1.74c.32 1.59.37 4.01.37 7.12s-.05 5.53-.37 7.12a3.996 3.996 0 01-1.74 1.74c-1.59.32-4.01.37-7.12.37zm-.23-11.41a3 3 0 10-3 3 3 3 0 003-3zm0 2a1 1 0 110-2 1 1 0 010 2zm7.23-7.23a.75.75 0 10-.75-.75.75.75 0 00.75.75z" clip-rule="evenodd" /></svg>
+                </a>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>
